@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR=$1;
+DIR=$(sed -n 's/.*install_dir *= *\([^ ]*.*\)/\1/p' < config.ini);;
 #change working directory to $DIR
 #check if Git is installed
 #check if cURL is installed

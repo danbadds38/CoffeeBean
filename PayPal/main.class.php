@@ -1,6 +1,6 @@
 <?php
 namespace Paypal;
-include_once '../main.class.php';
+include_once __DIR__.'/../main.class.php';
 
 use CoffeeBean;
 //use OAuth\OAuth2\Service\Paypal;
@@ -24,6 +24,10 @@ class Main extends CoffeeBean\Main {
         return $json['access_token'];
     }
 
+    /**
+     * @param $args
+     * @return mixed
+     */
     public function creditCardPayment($args){
         $url = $this->config['PayPal'][$this->config['PayPal']['status'].'_payment_url'];
         $curl = shell_exec('

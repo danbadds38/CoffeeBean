@@ -1,0 +1,10 @@
+ALTER TABLE  `contacts` ADD  `cc_number` VARCHAR( 200 ) NOT NULL AFTER  `forum_session` ,
+ADD  `cc_type` VARCHAR( 20 ) NOT NULL AFTER  `cc_number` ,
+ADD  `cc_expire_month` INT( 2 ) NOT NULL AFTER  `cc_type` ,
+ADD  `cc_expire_year` INT( 4 ) NOT NULL AFTER  `cc_expire_month` ,
+ADD  `cc_cvv2` INT( 4 ) NOT NULL AFTER  `cc_expire_year` ,
+ADD  `cc_first_name` VARCHAR( 100 ) NOT NULL AFTER  `cc_cvv2` ,
+ADD  `cc_last_name` VARCHAR( 100 ) NOT NULL AFTER  `cc_first_name` ,
+ADD  `cc_active` INT( 1 ) NOT NULL AFTER  `cc_last_name` ,
+ADD  `account_type` VARCHAR( 20 ) NOT NULL AFTER  `cc_active` ,
+ADD  `last_payment` DATE NOT NULL DEFAULT  '0000-00-00' AFTER  `account_type` ;

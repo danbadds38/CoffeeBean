@@ -1,4 +1,4 @@
 <?php
-use Paypal\Main as PayPal;
+use Paypal\Test as PayPal;
 include 'main.class.php';
 $api = new PayPal();

@@ -9,6 +9,8 @@ DIR=$(sed -n 's/.*install_dir *= *\([^ ]*.*\)/\1/p' < config.ini);;
 cd $DIR
 if [ ! -f composer.phar ]; then
     curl -sS https://getcomposer.org/installer | php
+    mv composer.phar /usr/local/bin/composer
+    sudo apt-get install php5-curl
 fi
 
 if [ ! -d CoffeeBean/PayPal/REST-API-SDK ]; then

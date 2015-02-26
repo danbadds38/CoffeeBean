@@ -16,16 +16,16 @@ echo -e "\033[0m"
  `Y8bood8P'  `Y8bod8P' o888o   o888o   `Y8bod8P' `Y8bod8P' o888bood8P'  `Y8bod8P' `Y888""8o o888o o888o
 
                           .oyhhs:   User: ubuntu
-                 ..--.., shhhhhh-   Hostname: ip-172-20-93-14
+                 ..--.., shhhhhh-   Hostname: ip-xxx-xx-xx-xxx
                -+++++++++`:yyhhyo`  OS: Ubuntu 14.04 x86_64
           .--  -++++++++/-.-::-`    Kernel: 3.13.0-36-generic
-        .::::-   :-----:/+++/++/.   Uptime: 45 days, 1:42
+        .::::-   :-----:/+++/++/.   Uptime: 20 days, 1:42
        -:::::-.          .:++++++:  Shell: Bash
   ,,, .:::::-`             .++++++- Terminal: Xterm
-./+++/-`-::-                ./////: Packages: 755
+./+++/-`-::-                ./////: Packages: 722
 +++++++ .::-                        CPU: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
-./+++/-`-::-                :yyyyyo RAM: 357 MB / 992 MB
-  ``` `-::::-`             :yhhhhh: Disk: 7.0G / 20G
+./+++/-`-::-                :yyyyyo RAM: 357 MB / 1992 MB
+  ``` `-::::-`             :yhhhhh: Disk: 7.0G / 200G
        -:::::-.         `-ohhhhhh+  
         .::::-` -o+///+oyhhyyyhy:   
          `.--  /yhhhhhhhy+,....     

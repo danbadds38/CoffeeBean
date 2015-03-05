@@ -1,7 +1,9 @@
 <?php
 namespace Browser
+include_once __DIR__ . '/../main.class.php';
 
 use CoffeeBean\BagaTrix
+
 class Main extends CoffeeBean\BagaTrix\Main {
 
   public function __construct(){
